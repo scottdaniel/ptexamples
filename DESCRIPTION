@@ -1,10 +1,9 @@
-Package: ptexamples
-Title: Example RStudio Project Templates
-Author: Kevin Ushey
-Maintainer: Kevin Ushey <kevin@rstudio.com>
+Package: PCMPrstudiotemplate
+Title: PennCHOP Microbiome Program Rstudio Template
+Author: Scott G. Daniel
+Maintainer: Scott G. Daniel <danielsg@email.chop.edu>
 Version: 0.0.1
-Description: Example package showcasing how RStudio project templates are defined.
-Depends: R (>= 3.3.2)
-License: GPL (>= 2)
+Description: Create a project that starts with analysis of a 16S or WGS dataset.
+License: GPL-3
 Encoding: UTF-8
 LazyData: true
