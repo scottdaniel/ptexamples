@@ -2,15 +2,21 @@ Binding: setup_files
 Title: PCMP Rstudio Template
 OpenFiles: creation_log
 
+Parameter: title
+Widget: TextInput
+Label: Name of Project
+Default: "Basic Bioinformatics Overview"
+Position: left
+
+Parameter: author
+Widget: TextInput
+Label: Author of Project
+Default: "PennCHOP Microbiome Program"
+Position: left
+
 Parameter: prj_type
 Widget: SelectInput
 Label: Select Type of Project
 Fields: 16S, WGS
-Default: 16S
-Position: left
-
-Parameter: prj_name
-Widget: TextInput
-Label: Name of Project
-Default: Untitled
+Default: WGS
 Position: right
